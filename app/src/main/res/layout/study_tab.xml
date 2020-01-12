@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/study_tab_layout_1"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/study_tab_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="e-Books"
+            android:textColor="#131b37"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <ImageView
+                android:id="@+id/study_tab_1_dot"
+                android:layout_width="wrap_content"
+                android:src="@drawable/dot"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerInside"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/study_tab_layout_2"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/study_tab_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class Notes"
+            android:textColor="#818183"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <ImageView
+                android:id="@+id/study_tab_2_dot"
+                android:layout_width="wrap_content"
+                android:src="@drawable/dot"
+                android:scaleType="centerInside"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/study_tab_layout_3"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="0dp">
+
+        <TextView
+                android:id="@+id/study_tab_3"
+                android:layout_width="wrap_content"
+                android:text="Previous Year Papers"
+                android:textStyle="bold"
+                android:textColor="#818183"
+                android:textSize="17sp"
+                android:layout_height="wrap_content"/>
+
+        <ImageView
+                android:id="@+id/study_tab_3_dot"
+                android:layout_width="wrap_content"
+                android:src="@drawable/dot"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerInside"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
