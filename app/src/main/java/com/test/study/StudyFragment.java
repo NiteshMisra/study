@@ -37,6 +37,8 @@ public class StudyFragment extends Fragment {
         mAdapter.addFragment(new ClassNotesFragment());
         mAdapter.addFragment(new PrevPaperFragment());
         viewPager.setAdapter(mAdapter);
+        int limit = (mAdapter.getCount() > 1 ? mAdapter.getCount() - 1 : 1);
+        viewPager.setOffscreenPageLimit(limit);
 
         tabLayout.setupWithViewPager(viewPager);
 
